@@ -1,0 +1,12 @@
+{
+  "name": "rabbitmq-project",
+  "version": "1.0.0",
+  "scripts": {
+    "producer": "node src/producer/index.js",
+    "consumer": "node src/consumer/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.18.2"
+  }
+}
